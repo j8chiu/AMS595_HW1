@@ -6,18 +6,24 @@ The project demonstrates different approaches to random sampling, statistical un
 ---
 
 ## Contents
-- `ams595_hw1.m` – runs **Task 1**, **Task 2**, and **Task 3**, estimating π with user-specified precision and live plotting.
+- `ams595_hw1.m` – main script that runs:
+  - **Task 1** – fixed-N for-loop estimation with convergence plots and precision vs. cost analysis.
+  - **Task 2** – while-loop estimation with a confidence-interval-based stopping rule to achieve target significant figures.
+  - **Task 3** – reusable function `mcpi_precision_plot` with live plotting, precision control, and plot saving.
 
 ---
 
 ## Requirements
 - MATLAB R2022a or later (earlier versions may also work).
-- No external toolboxes are required.
+- No external toolboxes required.
 
 ---
 
-## Usage
+## User Guide
 
-Run the main script:
-```matlab
-ams595_hw1
+### 1. Getting Started
+1. Download or clone this repository.
+2. Open MATLAB and set the working directory to the folder containing the files.
+3. Run the script:
+   ```matlab
+   ams595_hw1
